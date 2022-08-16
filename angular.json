@@ -23,9 +23,19 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/primeng/resources/themes/saga-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeflex/primeflex.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/quill/dist/quill.snow.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/lodash/lodash.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "bf2def36-9f62-4e91-a637-c84cb60c8801"
   }
 }
